@@ -13,12 +13,15 @@ let's setup the environment which includes flask, a python web framework (http:/
 
 run the following commands in terminal:
 
-cd /kanetix-test/											(navigate to extracted folder)
-docker-compose build										(build docker container)
-docker-compose run --rm --service-ports kanetix-test bash	(connect to container)
-python app.py												(start flask app)
+`cd /kanetix-test/` (navigate to extracted folder)
 
-now visit http://localhost:8000/ in a browser to view our flask test app.
+`docker-compose build` (build docker container)
+
+`docker-compose run --rm --service-ports kanetix-test sh`	(connect to container)
+
+`python app.py` (start flask app)
+
+now visit `http://localhost:8000/` in a browser to view our flask test app.
 if everything worked you should see 'hello world!', and can start the test :)
 
 if you have problems with the setup, see if you can figure it out, but if you're stuck, don't stress, contact us
