@@ -28,10 +28,10 @@ if you have problems with the setup, see if you can figure it out, but if you're
 
 ## instructions
 
-1. no rates are being returned for Sonnet (company id = 4), can you determine why and fix? once complete and you're happy with your code, email back the code
+1. No rates are being returned for Sonnet (company id = 4), can you determine why and fix?
 
-2. The endpoint used to get RBC rates (company id = 5) is flakey and only returns rates when it feels like, can you think of a way we can always display a rate?
+2. The endpoint used to get RBC rates (company id = 5) is flakey and only returns rates when it feels like it, can you think of a way we can always display a rate?
 
 3. The front end js makes alot of api calls, can you think of a better way to display the required data?
 
-once complete package the code up and send back. include any notes on your thoughts or design considerations
+Once complete package the code up and send back. Include any notes on your thoughts or design considerations.
