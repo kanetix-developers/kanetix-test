@@ -1,12 +1,13 @@
-# requirements
-#--------------
+# kanetix test app
+
+
+## requirements
 
 download and install the following:
 
 docker - https://www.docker.com/
 
-# setup
-#--------------
+## setup
 
 let's setup the environment which includes flask, a python web framework (http://flask.pocoo.org/)
 
@@ -22,8 +23,7 @@ if everything worked you should see 'hello world!', and can start the test :)
 
 if you have problems with the setup, see if you can figure it out, but if you're stuck, don't stress, contact us
 
-# instructions
-#--------------
+## instructions
 
 1. no rates are being returned for Sonnet (company id = 4), can you determine why and fix? once complete and you're happy with your code, email back the code
 
