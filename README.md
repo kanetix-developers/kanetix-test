@@ -3,8 +3,7 @@
 
 ## requirements
 
-download and install the following:
-
+git
 docker - https://www.docker.com/
 
 ## setup
@@ -12,6 +11,8 @@ docker - https://www.docker.com/
 let's setup the environment which includes flask, a python web framework (http://flask.pocoo.org/)
 
 run the following commands in terminal:
+
+`git clone https://github.com/kanetix-developers/kanetix-test.git`
 
 `cd /kanetix-test/` (navigate to folder)
 
