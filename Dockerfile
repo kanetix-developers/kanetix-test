@@ -4,4 +4,4 @@ WORKDIR /app
 
 RUN pip install flask requests xmltodict
 
-EXPOSE 5000
+EXPOSE 8000
