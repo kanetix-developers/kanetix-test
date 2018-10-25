@@ -61,6 +61,6 @@ class RatingService(object):
 
     def _fake_api_call2(self):
         ''' this is mocked method, do not modify '''
-        if randint(0, 2) == 2:
-            return '{ "status": 0, "error": "server unavailble, try again" }'
+        if randint(0, 3) == 2:
+            return '{ "status": 0, "error": "server unavailable, try again" }'
         return '{ "status": 1, "premium": 914 } '
