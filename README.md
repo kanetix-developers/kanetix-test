@@ -13,7 +13,7 @@ let's setup the environment which includes flask, a python web framework (http:/
 
 run the following commands in terminal:
 
-`cd /kanetix-test/` (navigate to extracted folder)
+`cd /kanetix-test/` (navigate to folder)
 
 `docker-compose build` (build docker container)
 
@@ -26,12 +26,14 @@ if everything worked you should see 'hello world!', and can start the test :)
 
 if you have problems with the setup, see if you can figure it out, but if you're stuck, don't stress, contact us
 
-## instructions
+## questions
 
 1. No rates are being returned for Sonnet (company id = 4), can you determine why and fix?
 
 2. The endpoint used to get RBC rates (company id = 5) is flakey and only returns rates when it feels like it, can you think of a way we can always display a rate?
 
 3. The front end js makes alot of api calls, can you think of a better way to display the required data?
+
+4. The front end is unstyled, can you present the information in a better way?
 
 Once complete package the code up and send back. Include any notes on your thoughts or design considerations.
