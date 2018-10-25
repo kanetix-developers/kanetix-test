@@ -3,8 +3,8 @@
 
 ## requirements
 
-git
-docker - https://www.docker.com/
+* git
+* docker - https://www.docker.com/
 
 ## setup
 
