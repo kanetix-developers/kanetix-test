@@ -29,6 +29,8 @@ if you have problems with the setup, see if you can figure it out, but if you're
 
 ## questions
 
+The following questions are in relation to the rates page, `http://localhost:8000/rates`.
+
 1. No rates are being returned for Sonnet (company id = 4), can you determine why and fix?
 
 2. The endpoint used to get RBC rates (company id = 5) is flakey and only returns rates when it feels like it, can you think of a way we can always display a rate?
