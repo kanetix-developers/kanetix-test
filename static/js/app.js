@@ -1,9 +1,13 @@
 'use strict';
 
+// turn off async to ensure rates remain sorted, wouldn't do this in real life
+$.ajaxSetup({async:false});
+
 $(function(){
 
 	$.get('/api/rates', function(rates) {
 
+		// get company details for each company rate
 		for (var index in rates) {
 
 			var id = rates[index][0];
